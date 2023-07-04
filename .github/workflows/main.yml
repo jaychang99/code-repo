@@ -1,7 +1,7 @@
 name: GitOps CI
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "main" ]
 env:
   dockerimage_tag: ${{ github.sha }}
   dockerimage_name: jaychang99/gitops
